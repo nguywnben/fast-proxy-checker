@@ -8,7 +8,7 @@ A high-performance, multithreaded Python tool to validate proxies with automatic
 - **Full Auth Support:** Handles `ip:port:user:pass` and `user:pass@ip:port` formats seamlessly.
 - **Real-time Geolocation:** Displays the country and latency (ms) for every live proxy.
 - **Clean UI:** Professional color-coded console output (Live in Green, Dead in Red).
-- **Format Preservation:** Saves working proxies to `valid_proxies.txt` while keeping your original format.
+- **Format Preservation:** Saves working proxies to `live_proxies.txt` while keeping your original format.
 - **Auto-Reset:** Automatically clears the output file at the start of each session.
 
 ## Supported Formats
