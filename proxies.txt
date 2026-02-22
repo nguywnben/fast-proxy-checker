@@ -1,0 +1,17 @@
+# 1. Standard format (Auto-detect protocol)
+159.65.230.46:8888
+97.74.87.226:80
+
+# 2. Format with Protocol (Explicit)
+http://47.56.110.204:8989
+socks5://203.19.38.114:1080
+socks4://1.2.3.4:5678
+
+# 3. Format with Authentication (ip:port:user:pass)
+123.45.67.89:8080:myuser:mypassword
+
+# 4. Format with Authentication (user:pass@ip:port)
+admin:12345@192.168.1.1:8000
+
+# 5. Full Format (protocol://user:pass@ip:port)
+http://member:secret@103.20.144.50:3128
