@@ -35,7 +35,7 @@ The checker supports all common proxy formats in `proxies.txt`:
    python main.py
    ```
 3. Enter the number of threads when prompted (Default is 20).
-4. Check `valid_proxies.txt` for the results.
+4. Check `live_proxies.txt` for the results.
 
 ## Requirements
 - Python 3.x

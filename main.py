@@ -23,7 +23,7 @@ class ProxyChecker:
         self.clear_output_file()
 
     def clear_output_file(self):
-        with open("valid_proxies.txt", "w") as f:
+        with open("live_proxies.txt", "w") as f:
             f.write("")
 
     def load_proxies(self):
@@ -129,7 +129,7 @@ class ProxyChecker:
             if found_valid:
                 self.live_count += 1
                 print(f"[{self.counter}/{self.total}] {Color.GREEN}Live{Color.RESET} | {display_info}")
-                with open("valid_proxies.txt", "a") as f:
+                with open("live_proxies.txt", "a") as f:
                     f.write(file_info + "\n")
                     f.flush()
             else:
